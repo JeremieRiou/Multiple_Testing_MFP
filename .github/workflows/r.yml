@@ -32,7 +32,7 @@ jobs:
           r-version: ${{ matrix.r-version }}
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "rcmdcheck","SurvRegCensCov","tidyr","CPMCGLM","ggplot2","dplyr","lattice","survival","numbers"))
+          install.packages(c("remotes", "rcmdcheck","SurvRegCensCov","tidyr","CPMCGLM","ggplot2","dplyr","lattice","survival"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
       - name: Check
