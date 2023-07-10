@@ -3,7 +3,7 @@ The purpose of this space is to provide you with an R function that will allow y
 
 
 ## Main Function
-The main function used to adjust pvalue resulting from the search for the optimal fractional polynomial transformation using a resampling method is: https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/.github/workflows/resampling_MFP.R 
+The main function used to adjust pvalue resulting from the search for the optimal fractional polynomial transformation using a resampling method is: https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/resampling_MFP.R 
 ### Arguments
     # formula: A formula for time to event outcome, e.g. Surv(time,event)~varcod+adjustment_variable
     # data: A dataframe 
