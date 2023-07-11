@@ -3,7 +3,8 @@ The purpose of this space is to provide you with an R function that will allow y
 
 
 ## Main Files
-The main functions used to adjust pvalue resulting from the search for the optimal fractional polynomials transformation using a resampling method are available in this repositorie.
+The main functions used to adjust pvalue resulting from the search for the optimal fractional polynomials transformation using a resampling method are available in this repository.
+
     # The main file containing the main R functions needed to adjust values in a practical setting is available in:
     https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/R/Fonctions_MFP.R
     # The data is available:  https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/.github/worflows/MPNmultistate(2).Rdata
