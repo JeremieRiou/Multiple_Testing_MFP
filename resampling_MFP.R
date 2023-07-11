@@ -46,7 +46,7 @@ FP[3,1:2] <- c(2,1)
   res
   
   #Using Boostsrap method
-  res <- resampling(formula=Surv(AMLT, AMLTC)~Driver1+Pl,data=data,varcod"Pl",FP=FP,N=500,txcensure=0,method="Bootstrap",alpha=0.05)
+  res <- resampling(formula=Surv(AMLT, AMLTC)~Driver1+Pl,data=data,varcod="Pl",FP=FP,N=500,txcensure=0,method="Bootstrap",alpha=0.05)
   res
   
   
