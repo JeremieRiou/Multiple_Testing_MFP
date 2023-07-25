@@ -1,23 +1,6 @@
 # Multiple_Testing_MFP
 The purpose of this space is to provide you with an R function that will allow you to apply the theory developed in the paper by Liquet, B. Riou, J. and Roux, M. The aim is to illustrate it on a concrete example, and to make the results presented in this paper reproducible.
 
-test 
-
-## Main Files
-The main functions used to adjust pvalue resulting from the search for the optimal fractional polynomials transformation using a resampling method are available in this repository.
-
-    # The main file containing the main R functions needed to adjust pvalues in a practical setting is available in:
-    
-    https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/R/Fonctions_MFP.R
-    
-    # The data is available:  
-    
-    https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/.github/worflows/MPNmultistate(2).Rdata
-    
-    # Finally, the code used to reproduce the application presented in Liquet, Riou, and Roux is available in the following file:
-    
-    https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/resampling_MFP.R 
-
 
 ## Arguments of Resampling Function
 
