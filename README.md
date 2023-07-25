@@ -29,4 +29,6 @@ The purpose of this space is to provide an R function that will allow you to app
     # method: The resampling method you require:  "Permutation" or "Bootstrap"
     
     # alpha: FWER 
-  
+
+## Motivating Example 
+See Motivating_Example.md for all details about the use of the function in a real context
