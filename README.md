@@ -1,5 +1,5 @@
 # Multiple_Testing_MFP
-The purpose of this space is to provide you with an R function that will allow you to apply the theory developed in the paper by Liquet, B. Riou, J. and Roux, M. The aim is to illustrate it on a concrete example, and to make the results presented in this paper reproducible.
+The purpose of this space is to provide an R function that will allow you to apply the theory developed in the paper by Liquet, B. Riou, J. and Roux, M. The aim is to explain it, illustrate on a concrete example, and to make the results presented in this paper reproducible.
 
 
 ## Arguments of Resampling Function
