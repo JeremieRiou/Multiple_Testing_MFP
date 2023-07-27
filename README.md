@@ -4,7 +4,7 @@ The purpose of this space is to provide an R function that will allow you to app
 
 ## Arguments of Resampling Function
 
-    - **formula** : A formula for time to event outcome, e.g. Surv(time,event)~varcod+adjustment_variable
+    - formula : A formula for time to event outcome, e.g. Surv(time,event)~varcod+adjustment_variable
     
     - data: A dataframe 
     
@@ -30,4 +30,4 @@ The purpose of this space is to provide an R function that will allow you to app
 
 # Motivating Example
 
-See Motivating_Example.md for all details about the use of the function in a real context
+See [Motivating_Example.md](https://github.com/JeremieRiou/Multiple_Testing_MFP/blob/main/Motivating_Example.md) for all details about the use of the function in a real context
