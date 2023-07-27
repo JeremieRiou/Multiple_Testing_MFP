@@ -10,7 +10,9 @@ The purpose of this space is to provide an R function that will allow you to app
     
     - varcod: name of the column corresponding to the variable of interest to be transformed
     
-    - FP: a matrix with powers which are used for computing each fractional polynomial transformations. The FP argument needs to be a matrix. The number of rows correspond to the number of transformations tested, and the number of columns is the maximum number of degrees tested for a single transformation.
+    - FP: a matrix with powers which are used for computing each fractional polynomial transformations. 
+    The FP argument needs to be a matrix. The number of rows correspond to the number of transformations tested,
+    and the number of columns is the maximum number of degrees tested for a single transformation.
         
         Example:
         
@@ -18,7 +20,10 @@ The purpose of this space is to provide an R function that will allow you to app
         [2,]	0.5	  1	    -0.5	2
         [3,]	-0.5  1	    NA	    NA
 
-        - In this example, the user performs three transformations of the variable of interest. The first is a fractional polynomial transformation with one degree and a power of -2. The second transformation is a fractional polynomial transformation with four degrees and powers of 0.5,1,-0.5,and 2. The third transformation is a fractional polynomial transformation with two degrees and powers of -0.5, and 1.
+        - In this example, the user performs three transformations of the variable of interest. 
+        The first is a fractional polynomial transformation with one degree and a power of -2. 
+        The second transformation is a fractional polynomial transformation with four degrees and powers of 0.5,1,-0.5,and 2. 
+        The third transformation is a fractional polynomial transformation with two degrees and powers of -0.5, and 1.
         
     - N: the number of resampling that you want to do.
     
