@@ -49,6 +49,7 @@ source("cox_fp_corrected.R")
 
 ```r
 # Extract variables of interest
+MPNinput <- dat
 data <- MPNinput[, c("Driver", "Pl", "Age", "Hb", "ASXL1", "TP53", "WCC", "AMLT", "AMLTC","TN")]
 data <- na.omit(data)
 
