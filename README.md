@@ -63,7 +63,7 @@ if (!require("survival")) install.packages("survival")
 
 # Clone and source
 git clone https://github.com/JeremieRiou/Multiple_Testing_MFP.git
-source("cox_fp_functions.R")
+source("cox_fp_corrected.R")
 ```
 
 **Requirements:** R > 3.6.0, `survival` package
