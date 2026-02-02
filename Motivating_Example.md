@@ -179,7 +179,7 @@ polynomials on the graph below.
 
 ```r
 result_bonf <- cox_fp_analysis(
-  formula = Surv(AMLT, AMLTC) ~ Age + TN + ASXL1 + TP53 + WCC + Hb,
+  formula = Surv(AMLT, AMLTC) ~ Age + TN + ASXL1 + WCC,
   data = data,
   var_interest = "Pl",
   fp_powers = fp_powers,
