@@ -23,7 +23,7 @@ library(compareGroups)
 
 # Load the data and functions
 load("MPNmultistate.RData")
-source("cox_fp_functions.R")
+source("cox_fp_corrected.R")
 ```
 
 ---
