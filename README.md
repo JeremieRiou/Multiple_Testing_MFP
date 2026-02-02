@@ -75,7 +75,9 @@ source("cox_fp_functions.R")
 ```r
 library(survival)
 source("cox_fp_functions.R")
-data(lung)
+
+lung
+lung$status <- as.numeric(paste(ifelse(lung$status=="1","0","1")))
 
 # Define FP transformations to test
 fp_powers <- list(
@@ -199,8 +201,8 @@ if (result$p_corrected < alpha) {
 ### Example Interpretation
 
 ```r
-result$best_power = c(0, 1)
-result$p_corrected = 0.008
+result$best_power = c(2)
+result$p_corrected = 0.00020
 ```
 *"A log-linear FP2 transformation provides the best fit (adjusted p = 0.008), suggesting the effect plateaus at higher values."*
 
